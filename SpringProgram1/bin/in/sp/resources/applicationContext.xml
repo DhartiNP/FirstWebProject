@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class = "in.sp.beans.Student" id = "stdid">
+    <property name ="name" value="Dharti"> </property>
+    <property name="rollNo" value = "1"> </property>
+        <property name="email" value = "Dharti.patel@gmail.com"> </property>
+    </bean>
+    
+     <bean class = "in.sp.beans.Student" id = "stdid1">
+    <property name ="name" value="Divam"> </property>
+    <property name="rollNo" value = "2"> </property>
+        <property name="email" value = "Divam.patel@gmail.com"> </property>
+    </bean>
+    
+     <bean class = "in.sp.beans.Student" id = "stdid2">
+    <property name ="name" value="Diva"> </property>
+    <property name="rollNo" value = "3"> </property>
+        <property name="email" value = "Diva.patel@gmail.com"> </property>
+    </bean>
+
+</beans>
